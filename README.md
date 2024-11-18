@@ -4,7 +4,7 @@ Adapts your codeigniter 3 project that was built on mysql to postgresql
 
 ## Usage
 
-1. Migrate your database to postgresql (I recommend to use pgloader)
+1. Migrate your database to postgresql (I recommend to use pgloader). Your old database name should be the new schema name. 
 2. Copy `applications` folder onto yours
 3. Add `"postgre"` to your helpers autoload (in `applications/config/autoload.php`)
 4. Modify your database configuration to use postgres (in `applications/config/database.php`). Example:
