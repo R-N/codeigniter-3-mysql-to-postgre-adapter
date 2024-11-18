@@ -29,7 +29,7 @@ $db['default'] = array(
 You can use the migrate.lisp with pgloader. 
 1. Modify it to use your datbase URL
 2. Run `pgloader migrate.lisp`
-3. [Views, triggers, procedures, and triggers don't get migrated](https://pgloader.readthedocs.io/en/latest/ref/pgsql.html#postgresql-migration-limitations). Recreate them through SQL
+3. [Views, triggers, procedures, and functions don't get migrated](https://pgloader.readthedocs.io/en/latest/ref/pgsql.html#postgresql-migration-limitations). Recreate them through SQL
 
 ## pgloader for windows
 
