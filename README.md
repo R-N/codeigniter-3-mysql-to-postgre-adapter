@@ -22,7 +22,7 @@ $db['default'] = array(
     ...
 );
 ```
-5. PostgreSQL converts names to lowercase unless you use double quotes in the SQL, so modify your code to access database values in lowercase. If you want compatibility with mysql, convert the mysql database to lowercase too. The names include database name, schema name, table and view name, column name. 
+5. PostgreSQL converts names to lowercase unless you use double quotes in the SQL, so modify your code to access database values in lowercase. If you want compatibility with mysql, convert the mysql database to lowercase too. The names include database name, schema name, table and view name, column name, returned column/value aliases. 
 
 ## Migration
 
