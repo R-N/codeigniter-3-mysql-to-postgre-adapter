@@ -37,7 +37,7 @@ They don't ship pgloader binaries for Windows. Either you build them yourself, o
 
 1. Install cygwin64, choose the following packages:
 ![image](https://github.com/user-attachments/assets/61becd96-3573-47b5-8b03-8aaf067b8015)
-2. Download [CCL](https://ccl.clozure.com/). And compress the zip in somewhere.
+2. Download [CCL](https://ccl.clozure.com/). Extract it somewhere. Preferably close to where you would clone the pgloader project.
 3. Download [dblib_0.95.zip](https://github.com/dimitri/pgloader/files/3437567/dblib_0.95.zip). Copy all the files to cygwin64/bin.
 4. Duplicate dblib.dll and rename it to sybdb.dll 
 5. Download [sqlite3.dll](https://www.sqlite.org/download.html). Copy it to cygwin64/bin.
