@@ -43,7 +43,7 @@ They don't ship pgloader binaries for Windows. Either you build them yourself, o
 5. Download [sqlite3.dll](https://www.sqlite.org/download.html). Copy it to cygwin64/bin.
 6. Clone the pgloader repo `git clone https://github.com/dimitri/pgloader.git`
 7. Open cygwin64 terminal.
-8. Change directory to the parent folder of pgloader.
+8. Change directory to the pgloader project directory.
 9. Compile pgloader. `[your ccl.exe location] --no-init --load ./src/save.lisp`.
 10. In build/bin, there will be a pgloaderfile . Rename it to pgloader.exe
 11. run pgloader.exe, when it popped out the error, type `:GO`
