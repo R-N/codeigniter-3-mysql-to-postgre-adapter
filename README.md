@@ -45,7 +45,7 @@ They don't ship pgloader binaries for Windows. Either you build them yourself, o
 7. Open cygwin64 terminal.
 8. Change directory to the pgloader project directory.
 9. Compile pgloader. `[your ccl.exe location] --no-init --load ./src/save.lisp`.
-10. In build/bin, there will be a pgloaderfile . Rename it to pgloader.exe
+10. In build/bin, there will be a pgloader file . Rename it to pgloader.exe
 11. run pgloader.exe, when it popped out the error, type `:GO`
 
 [Reference thread for building pgloader](https://github.com/dimitri/pgloader/issues/652#issuecomment-2475414471)
